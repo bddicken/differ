@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Output Comparison Tool</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="diff.css" />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+		<script type="text/javascript" src="diff.js"></script>
+	</head>
+
+	<body>
+		<h1>
+			Output Comparison Tool
+		</h1>
+
+		<noscript>
+			<p class="error">
+				It appears that you don't have JavaScript enabled in your web browser.  This page requires JavaScript to work.  Please check your browser settings.  (In Internet Explorer you may need to tell it to allow this page's &quot;Active Content&quot;.)
+			</p>
+		</noscript>
+
+		<table class="maindifftable">
+			<tr>
+				<td>
+					Expected text: <span id="expectedchars">(0 characters selected)</span> <br />
+
+					<select id="homework">
+						<option value="">(choose an assignment)</option>
+
+            <!--
+            <optgroup id="bat" label="Assignment 1A (Bat)" class="creativeend">
+						</optgroup>
+            -->
+
+            <optgroup id="bat" label="Assignment 1A (Bat)" class="creativeend">
+							<option value="assignment-output/bat/bat-0.txt">bat-0</option>
+							<option value="assignment-output/bat/bat-1.txt">bat-1</option>
+							<option value="assignment-output/bat/bat-2.txt">bat-2</option>
+							<option value="assignment-output/bat/bat-3.txt">bat-3</option>
+							<option value="assignment-output/bat/bat-5.txt">bat-5</option>
+							<option value="assignment-output/bat/bat-7.txt">bat-7</option>
+						</optgroup>
+
+					</select>
+
+					<span id="loading" style="display: none">
+						<img src="images/progress.gif" alt="loading..." />
+						Downloading...
+					</span>
+				</td>
+
+				<td>
+					Actual text: <span id="actualchars">(0 characters selected)</span><br />
+					<em>(paste your program's output below)</em>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<textarea class="expected" id="expectedtext" cols="50" rows="20" wrap="off"></textarea>
+				</td>
+				<td>
+					<textarea class="actual" id="actualtext" cols="50" rows="20" wrap="off"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" style="text-align: center">
+					<div id="linenumbersarea">
+
+						Line numbers:
+						<button id="add">Add</button>
+						<button id="remove">Remove</button>
+					</div>
+
+					<div id="stripwhitespacearea">
+
+<!--
+						Creative output?
+						<label>
+							<input type="checkbox" id="creativestart" />
+							at start
+						</label>
+						<label>
+							<input type="checkbox" id="creativeend" />
+							at end
+						</label> <br />
+-->
+
+						<label>
+							<input type="checkbox" id="stripwhitespace" />
+							Ignore spaces at start of lines
+						</label>
+					</div>
+
+					<div id="comparearea">
+						<button id="compare">Compare</button>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">
+					<div id="diffarea" style="display: none">
+						<h2 id="differencesheader">Differences:</h2>
+						<div id="warnings"></div>
+						<pre id="result"></pre>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+
+		<div id="instructions">
+			<h2>
+				Instructions and Disclaimer:
+			</h2>
+
+			<ul>
+				<li>Choose the assignment from the drop-down box on the left.  (Its expected output should appear.)</li>
+				<li>Run your program and paste its output on the right.</li>
+				<li>Press Compare.  Any differences will be shown.</li>
+			</ul>
+
+			<p>
+				Any comparison lines that begin with a <code>&lt;</code> are those that occur in the expected output but are not found in the same place in your output.
+        Lines that begin with a <code>&gt;</code> are those that occur in your output but are not found in the same place in the expected output.
+			</p>
+
+			<p>
+				Some assignments have creative output (output that is customizable, on a per-student basis).
+        In the expected output, this will be signified by text such as, <strong><code>&lt;&lt; your custom text goes here &gt;&gt;</code></strong>.
+        You are not supposed to literally print this output from your program; you are supposed to print your own custom message in its place.
+        If this tool shows your custom message as being unmatched, this is expected.
+			</p>
+
+			<p>
+				Assignments that use random numbers may be impossible to match exactly in output unless you use a "seed" to your random number generator.
+        See the assignment's FAQ page for more details about how to do this.
+			</p>
+
+			<p>
+				Achieving &quot;No differences found&quot; on this page does not guarantee that you will earn any particular grade (good or bad) on an assignment.
+			</p>
+
+      <i>*** Much of the implementation of this site based on code written by Marty Stepp, formerly at University of Washington ***</i>
+      
+      <br>
+      <br>
+		
+    </div>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.1.0/prototype.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js"></script>
+		<script type="text/javascript" src="diff.js"></script>
+
+	</body>
+</html>
