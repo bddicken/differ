@@ -1,0 +1,4 @@
+Enter width: 1
+Enter height: 10
+Enter length: 100
+The volume of a cube with width 1, height 10, and length 100 is 1000

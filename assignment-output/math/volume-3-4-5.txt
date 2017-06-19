@@ -1,0 +1,4 @@
+Enter width: 3
+Enter height: 4
+Enter length: 5
+The volume of a cube with width 3, height 4, and length 5 is 60
