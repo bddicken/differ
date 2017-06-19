@@ -1,0 +1,4 @@
+Enter width: 10
+Enter height: 23
+Enter length: 37
+The area of a cube with width 10, height 23, and length 37 is 8510

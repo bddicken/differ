@@ -1,0 +1,5 @@
+Enter x1: 3
+Enter y1: 2
+Enter x2: 24
+Enter y2: 22
+The distance between (3, 2) and (24, 22) is 29.0

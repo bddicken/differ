@@ -1,0 +1,3 @@
+Enter first side: 3
+Enter second side: 3
+The hypotenuse of a right triangle is length 4.242640687119285 when the other two sides are of length 3 and 3

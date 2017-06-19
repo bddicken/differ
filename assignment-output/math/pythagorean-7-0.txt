@@ -1,0 +1,3 @@
+Enter first side: 7
+Enter second side: 0
+The hypotenuse of a right triangle is length 7.0 when the other two sides are of length 7 and 0
