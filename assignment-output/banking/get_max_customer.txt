@@ -1,0 +1,7 @@
+>>> get_max_customer([400, 700, 900, 300], ['Joe', 'Jane', 'Janet', 'James'])
+'Janet'
+
+>>> accounts = [34945, 34612, 900, 2465, 111111]
+>>> people = ['Sam', 'Cal', 'Joseph', 'Mary', 'Jax']
+>>> get_max_customer(accounts, people)
+'Jax'

@@ -1,0 +1,16 @@
+Welcome to the guessing game!
+
+Player 1: Enter number for Player 2 to guess between 0 and 100: 70
+
+Player 2, guess a number: 50
+Too low...
+Player 2, guess a number: 90
+Too high...
+Player 2, guess a number: 60
+Too low...
+Player 2, guess a number: 70
+Correct!
+
+It took you 4 tries to guess correctly!
+The numbers you guessed were: 50 90 60 70
+Goodbye!

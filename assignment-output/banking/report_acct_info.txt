@@ -1,0 +1,16 @@
+>>> accounts = [34945, 34612, 900, 2465, 111111]
+>>> people = ['Sam', 'Cal', 'Joseph', 'Mary', 'Jax']
+>>> report_acct_info(accounts, people, 3000)
+All accounts valued greater than 3000
+  Sam's bank account has $34945
+  Cal's bank account has $34612
+  Jax's bank account has $111111
+
+>>> accounts = [945, 3888, 2393, 111, 333, 987]
+>>> people = ['Sam', 'James', 'Sandy', 'Joseph', 'Mary', 'Jax']
+>>> report_acct_info(accounts, people, 400)
+All accounts valued greater than 400
+  Sam's bank account has $945
+  James's bank account has $3888
+  Sandy's bank account has $2393
+  Jax's bank account has $987

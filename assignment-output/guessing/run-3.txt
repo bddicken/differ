@@ -1,0 +1,22 @@
+Welcome to the guessing game!
+
+Player 1: Enter number for Player 2 to guess between 0 and 100: 78
+
+Player 2, guess a number: 50
+Too low...
+Player 2, guess a number: 90
+Too high...
+Player 2, guess a number: 70
+Too low...
+Player 2, guess a number: 80
+Too high...
+Player 2, guess a number: 75
+Too low...
+Player 2, guess a number: 77
+Too low...
+Player 2, guess a number: 78
+Correct!
+
+It took you 7 tries to guess correctly!
+The numbers you guessed were: 50 90 70 80 75 77 78
+Goodbye!
