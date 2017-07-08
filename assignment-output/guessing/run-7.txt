@@ -1,0 +1,15 @@
+Welcome to the guessing game!
+
+Player 1: Enter number for Player 2 to guess between 0 and 100: -3
+  That number is less than zero!
+Player 1: Enter number for Player 2 to guess between 0 and 100: 356
+  That number is greater than 100!
+Player 1: Enter number for Player 2 to guess between 0 and 100: 45
+
+Player 2, guess a number: 45
+Correct!
+You got it right in 1 guess! Wow, you are AMAZING.
+
+It took you 1 tries to guess correctly!
+The numbers you guessed were: 45
+Goodbye!
