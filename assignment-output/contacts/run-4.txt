@@ -1,0 +1,42 @@
+
+--------------- PROGRAM OUTPUT ---------------
+
+Welcome to the contacts app!
+> show me contact John Wick
+John Wick's contact info:
+  email: wick@email.com
+  phone: 123-4567
+> show me contact James Bond
+Not sure who that is.
+> add contact
+    name: James Bond
+    email: 007@england.gov
+    phone: none
+  Contact added!
+> add contact
+    name: Captain James T. Kirk
+    email: kirk@enterprise.com
+    phone: 123-7777
+  Contact added!
+> show me contact Captain James T. Kirk
+Captain James T. Kirk's contact info:
+  email: kirk@enterprise.com
+  phone: 123-7777
+> show me contact James Bond
+James Bond's contact info:
+  email: 007@england.gov
+  phone: none
+> show me contact James Pond
+Not sure who that is.
+> exit
+Goodbye!
+
+--------------- FILE BEFORE ---------------
+
+John Wick | wick@email.com | 123-4567
+
+--------------- FILE AFTER ---------------
+
+John Wick | wick@email.com | 123-4567
+James Bond | 007@england.gov | none
+Captain James T. Kirk | kirk@enterprise.com | 123-7777

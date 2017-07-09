@@ -1,0 +1,48 @@
+
+--------------- PROGRAM OUTPUT ---------------
+
+Welcome to the contacts app!
+> show me contact John Wick
+John Wick's contact info:
+  email: wick@email.com
+  phone: 123-4567
+> show me contact Sam Dekker
+Sam Dekker's contact info:
+  email: dekker@apple.com
+  phone: 123-456-7890
+> show me contact Jamie James
+Not sure who that is.
+> SHOW me contact Bill Jones
+Huh?
+> show me contact BILL JoneS
+Not sure who that is.
+> add contact
+    name: A
+    email: B
+    phone: C
+  Contact added!
+> exit
+Goodbye!
+
+--------------- FILE BEFORE ---------------
+
+John Wick | wick@email.com | 123-4567
+James Bond | 007@england.gov | none
+Bill Jones | bjon@gmail.com | 520-999-8765
+Captain James T. Kirk | kirk@enterprise.com | 123-7777
+Sam Dekker | dekker@apple.com | 123-456-7890
+Janet Keller | kel@yahoo.com | 456-2356
+Spock | spock@enterprise.com | 900-1123
+James Jamie | jjamie@gmail.com | 435-234-2334
+
+--------------- FILE AFTER ---------------
+
+John Wick | wick@email.com | 123-4567
+James Bond | 007@england.gov | none
+Bill Jones | bjon@gmail.com | 520-999-8765
+Captain James T. Kirk | kirk@enterprise.com | 123-7777
+Sam Dekker | dekker@apple.com | 123-456-7890
+Janet Keller | kel@yahoo.com | 456-2356
+Spock | spock@enterprise.com | 900-1123
+James Jamie | jjamie@gmail.com | 435-234-2334
+A | B | C

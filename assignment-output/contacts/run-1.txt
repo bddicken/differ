@@ -1,0 +1,28 @@
+
+--------------- PROGRAM OUTPUT ---------------
+
+Welcome to the contacts app!
+> blah blah blah?
+Huh?
+> SHOW me CONtact James Jamie
+Huh?
+> show me contact James Jamie
+James Jamie's contact info:
+  email: jjamie@gmail.com
+  phone: 435-234-2334
+> show me contact Bill Jones
+Bill Jones's contact info:
+  email: bjon@gmail.com
+  phone: 520-999-8765
+> exit
+Goodbye!
+
+--------------- FILE BEFORE ---------------
+
+Bill Jones | bjon@gmail.com | 520-999-8765
+James Jamie | jjamie@gmail.com | 435-234-2334
+
+--------------- FILE AFTER ---------------
+
+Bill Jones | bjon@gmail.com | 520-999-8765
+James Jamie | jjamie@gmail.com | 435-234-2334
