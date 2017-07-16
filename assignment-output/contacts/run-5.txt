@@ -31,7 +31,6 @@ Goodbye!
 John Wick | wick@email.com | 123-4567
 James Bond | 007@england.gov | none
 Captain James T. Kirk | kirk@enterprise.com | 123-7777
-Spock | spock@enterprise.com | 900-1123
 
 --------------- FILE AFTER ---------------
 
