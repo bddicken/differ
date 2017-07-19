@@ -1,0 +1,14 @@
+
+    elif username == user2:
+
+if username == user1:
+username = raw_input("Login: >> ")
+user2 = "Jill"
+    print "Access granted"
+        print "Welcome to the system"
+user1 = "Jack"
+#list of allowed users
+    else:
+#control that the user belongs to the list of allowed users
+#get the username from a prompt
+        print "Access denied"
