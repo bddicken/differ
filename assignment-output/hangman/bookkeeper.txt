@@ -1,0 +1,33 @@
+HANGMAN: Welcome to HANGMAN!
+HANGMAN: player 1 Enter a hangman word: bookkeeper
+HANGMAN: Wrong guesses left:  6
+HANGMAN: Word progress: __________
+HANGMAN: player 2 guess a letter: e
+HANGMAN: YES!
+HANGMAN: Wrong guesses left:  6
+HANGMAN: Word progress: _____ee_e_
+HANGMAN: player 2 guess a letter: r
+HANGMAN: YES!
+HANGMAN: Wrong guesses left:  6
+HANGMAN: Word progress: _____ee_er
+HANGMAN: player 2 guess a letter: b
+HANGMAN: YES!
+HANGMAN: Wrong guesses left:  6
+HANGMAN: Word progress: b____ee_er
+HANGMAN: player 2 guess a letter: o
+HANGMAN: YES!
+HANGMAN: Wrong guesses left:  6
+HANGMAN: Word progress: boo__ee_er
+HANGMAN: player 2 guess a letter: k
+HANGMAN: YES!
+HANGMAN: Wrong guesses left:  6
+HANGMAN: Word progress: bookkee_er
+HANGMAN: player 2 guess a letter: w
+HANGMAN: NOPE!
+HANGMAN: Wrong guesses left:  5
+HANGMAN: Word progress: bookkee_er
+HANGMAN: player 2 guess a letter: p
+HANGMAN: YES!
+HANGMAN: Wrong guesses left:  5
+HANGMAN: Word progress: bookkeeper
+HANGMAN: player 2 wins!
