@@ -1,0 +1,33 @@
+HANGMAN: Welcome to HANGMAN!
+HANGMAN: player 1 Enter a hangman word: axe
+HANGMAN: Wrong guesses left:  6
+HANGMAN: Word progress: ___
+HANGMAN: player 2 guess a letter: q
+HANGMAN: NOPE!
+HANGMAN: Wrong guesses left:  5
+HANGMAN: Word progress: ___
+HANGMAN: player 2 guess a letter: w
+HANGMAN: NOPE!
+HANGMAN: Wrong guesses left:  4
+HANGMAN: Word progress: ___
+HANGMAN: player 2 guess a letter: e
+HANGMAN: YES!
+HANGMAN: Wrong guesses left:  4
+HANGMAN: Word progress: __e
+HANGMAN: player 2 guess a letter: x
+HANGMAN: YES!
+HANGMAN: Wrong guesses left:  4
+HANGMAN: Word progress: _xe
+HANGMAN: player 2 guess a letter: x
+HANGMAN: You already guessed 'x'
+HANGMAN: Wrong guesses left:  4
+HANGMAN: Word progress: _xe
+HANGMAN: player 2 guess a letter: x
+HANGMAN: You already guessed 'x'
+HANGMAN: Wrong guesses left:  4
+HANGMAN: Word progress: _xe
+HANGMAN: player 2 guess a letter: a
+HANGMAN: YES!
+HANGMAN: Wrong guesses left:  4
+HANGMAN: Word progress: axe
+HANGMAN: player 2 wins!
