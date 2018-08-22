@@ -1,5 +1,0 @@
-Enter x1: 3
-Enter y1: 1
-Enter x2: 3
-Enter y2: 9
-The distance between (3, 1) and (3, 9) is 8.0

@@ -1,3 +1,0 @@
-Enter first side: 50
-Enter second side: 40
-The hypotenuse of a right triangle is length 64.03124237432849 when the other two sides are of length 50 and 40

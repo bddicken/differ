@@ -1,3 +1,0 @@
-Enter first side: 4
-Enter second side: 16
-The hypotenuse of a right triangle is length 16.492422502470642 when the other two sides are of length 4 and 16

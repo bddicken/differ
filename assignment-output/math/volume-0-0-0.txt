@@ -1,4 +1,0 @@
-Enter width: 0
-Enter height: 0
-Enter length: 0
-The volume of a cube with width 0, height 0, and length 0 is 0

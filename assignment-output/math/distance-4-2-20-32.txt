@@ -1,5 +1,0 @@
-Enter x1: 4
-Enter y1: 2
-Enter x2: 20
-Enter y2: 32
-The distance between (4, 2) and (20, 32) is 34.0
